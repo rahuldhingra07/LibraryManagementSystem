@@ -83,6 +83,7 @@ CREATE TABLE Book_Category (
     FOREIGN KEY (book_id) REFERENCES Books(book_id),
     FOREIGN KEY (category_id) REFERENCES Categories(category_id)
 );
+-- Sample data --
 INSERT INTO Authors (author_id, author_name)
 VALUES (1, 'Author A'),
        (2, 'Author B'),
